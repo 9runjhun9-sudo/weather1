@@ -310,7 +310,7 @@ def spell_metrics(df):
 # MAIN
 # ------------------------------------------------------------------
 def main():
-    st.title("Weather Dashboard & EDA Tool")
+    st.title("Weather & EDA Tool")
     with st.spinner("Loading weather data..."):
         df = load_data()
 
